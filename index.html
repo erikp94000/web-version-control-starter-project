@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
+
 <head>
   <title>Bootstrap 5 Example</title>
   <meta charset="utf-8">
@@ -11,12 +12,13 @@
   <!-- Bootstrap JavaScript (for components like alerts, modals, etc.) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
 
   <!-- Full-width banner (container-fluid stretches across the page) -->
-  <div class="container-fluid p-5 bg-primary text-white text-center">
+  <div class="container-fluid p-5 bg-danger text-white text-center">
     <h1>My First Bootstrap Page</h1>
-    <p>Resize this responsive page to see the effect!</p> 
+    <p>Resize this responsive page to see the effect!</p>
   </div>
 
   <!-- Main container (content stays centered and has margins) -->
@@ -24,10 +26,22 @@
 
     <!-- Heading and paragraph -->
     <h2>Simple Container</h2>
-    <p>This is a paragraph inside a Bootstrap container.</p>
+    <p>This is a paragraph inside a Bootstrap container. This is a paragraph inside a Bootstrap container.This is a
+      paragraph inside a Bootstrap container.This is a paragraph inside a Bootstrap container.This is a paragraph inside
+      a Bootstrap container.</p>
+
+    <p></p>
+    <div class="text-center mt-4">
+  <!-- Centered text above the image -->
+  <h2>Dog</h2>
+  </div>
+  <h1>
+    </h2>
+    <img class="mx-auto d-block" src="images/Dog.jpg" alt="Dog Pic" width="320">
+    </div>
 
     <!-- Clickable link styled as a button -->
-    <a href="https://www.msudenver.edu/" class="btn btn-primary" target="_blank">
+    <a href="https://www.msudenver.edu/" class="btn btn-danger" target="_blank">
       Visit MSU Denver
     </a>
 
@@ -37,14 +51,15 @@
     </div>
 
     <!-- List group example -->
-    <ul class="list-group mt-3">
+    <ul class="list-group mt-3" data-bs-theme="dark">
       <li class="list-group-item">Item 1</li>
       <li class="list-group-item">Item 2</li>
       <li class="list-group-item">Item 3</li>
     </ul>
 
-  </div>
-  <!-- End of main container -->
+    </div>
+    <!-- End of main container -->
 
 </body>
+
 </html>
